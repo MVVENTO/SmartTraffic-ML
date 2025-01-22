@@ -1,1 +1,6 @@
 # exclude sensitive files
+
+# .gitignore
+data/raw/*
+data/processed/*
+data/machine_learning/*
