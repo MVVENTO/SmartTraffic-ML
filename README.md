@@ -1,4 +1,3 @@
-# Smart-City-Dashboard
 # Smart City Dashboard with Accessibility Features
 
 ## Overview
