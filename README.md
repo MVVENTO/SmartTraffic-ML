@@ -39,9 +39,6 @@ The **Smart City Dashboard** is an interactive web application that visualizes k
 
 
 
-
-
-
 # Datasets for Smart City Dashboard
 
 This folder contains the datasets used for the Smart City Dashboard project.
@@ -89,4 +86,17 @@ This folder contains the datasets used for the Smart City Dashboard project.
 - **Files**:
   - `traffic_forecast_model.pkl`: Pickle file of the regression model.
   - `time_series_model.pkl`: Pickle file of the time-series model.
+
+## Data Setup
+
+### 1. Fetch the Data
+- **Traffic Data**: Download from [City Traffic API](#) or use the provided `traffic_data.csv`.
+- **Air Quality Data**: Obtain via the [OpenWeatherMap API](https://openweathermap.org/).
+- **Public Transit Data**: Access through your local transit API.
+
+### 2. Generate Data
+For simulated datasets:
+```bash
+python src/data_processing.py
+
 
