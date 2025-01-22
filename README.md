@@ -37,3 +37,56 @@ The **Smart City Dashboard** is an interactive web application that visualizes k
    git clone https://github.com/yourusername/smart-city-dashboard.git
    cd smart-city-dashboard
 
+
+
+
+
+
+# Datasets for Smart City Dashboard
+
+This folder contains the datasets used for the Smart City Dashboard project.
+
+## Contents
+
+### 1. Raw Data
+- **traffic_data.csv**:
+  - **Description**: Historical traffic data for real-time forecasting.
+  - **Columns**:
+    - `timestamp`: Time of data collection.
+    - `location_id`: Unique ID for traffic location.
+    - `traffic_density`: Traffic density score (1–10).
+  - **Source**: Simulated data or city traffic API.
+
+- **air_quality.csv**:
+  - **Description**: Air quality levels by city or region.
+  - **Columns**:
+    - `timestamp`: Time of data collection.
+    - `region`: Region or location name.
+    - `aqi`: Air Quality Index.
+  - **Source**: OpenWeatherMap API.
+
+- **public_transit.csv**:
+  - **Description**: Real-time public transit updates.
+  - **Columns**:
+    - `timestamp`: Time of data collection.
+    - `route_id`: Public transit route ID.
+    - `status`: Current status (on-time, delayed, etc.).
+  - **Source**: Local transit APIs.
+
+- **accessibility.json**:
+  - **Description**: Real-time data on accessibility features.
+  - **Fields**:
+    - `location`: Name of the building or station.
+    - `elevator_status`: Current status (working, under maintenance).
+    - `wheelchair_access`: Availability (yes/no).
+  - **Source**: Simulated data or APIs.
+
+### 2. Processed Data
+- **Description**: Cleaned and transformed datasets for analysis and machine learning.
+
+### 3. Machine Learning Models
+- **Description**: Trained models for traffic forecasting.
+- **Files**:
+  - `traffic_forecast_model.pkl`: Pickle file of the regression model.
+  - `time_series_model.pkl`: Pickle file of the time-series model.
+
