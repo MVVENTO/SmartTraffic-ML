@@ -1,13 +1,24 @@
-# 🚦 Smart Traffic & Carbon Emission Reduction Using Machine Learning 🌍
+# 🚦 AI-Powered Traffic Management for a Safer, Smarter NYC 🌍
 
 ## **📌 Project Overview**
-Traffic congestion significantly contributes to **carbon emissions** and urban pollution. This project leverages **machine learning** to optimize **traffic flow**, reduce **fuel consumption**, and **lower emissions** by analyzing real-time traffic data, predicting congestion patterns, and implementing AI-driven traffic signal optimization.
+Traffic congestion significantly contributes to **carbon emissions** and urban pollution. This project leverages **machine learning** to optimize **traffic flow**, enhance **public safety** reduce **congestion**, and **lower emissions** by analyzing real-time traffic data, predicting congestion patterns, and implementing AI-driven traffic signal optimization.
 
 ## **🎯 Objectives**
-✔️ **Predict** traffic congestion using historical and real-time data.  
-✔️ **Optimize** traffic light timing with Reinforcement Learning (RL).  
-✔️ **Suggest eco-friendly routes** to minimize emissions.  
-✔️ **Integrate** carbon footprint analytics for city planners.  
+✔️ **Predict** traffic congestion using historical and real-time data to forecast congestion patterns.  
+✔️ **Optimize** traffic light timing with Reinforcement Learning (RL) to dynamically adjust traffic signal timing based on real-time conditions.  
+✔️ **Suggest eco-friendly routes** : Provide drivers with route options that minimize emissions and fuel consumption. 
+✔️ **Integrate** carbon footprint analytics for city planners : Develop tools for city planners to analyze the environmental impact of traffic management strategies. 
+
+Project Structure
+├── data
+│   ├── raw            # Raw traffic data (historical and real-time)
+│   ├── processed      # Processed and cleaned data for modeling
+│   └── models         # Trained machine learning models
+├── notebooks          # Jupyter notebooks for data exploration, model development, and analysis
+├── src                # Source code for data processing, model training, and visualization
+├── reports            # Project reports and documentation
+└── README.md          # This file
+
 
 ## **🛠️ Tech Stack**
 | Component            | Technology |
@@ -55,7 +66,10 @@ Traffic congestion significantly contributes to **carbon emissions** and urban p
 ✔️ Supports **emergency response** by predicting road congestion.  
 
 ## **📂 How to Run the Project**
+
+
+
 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/yourusername/SmartTraffic-ML.git
+git clone https://github.com/mvento/SmartTraffic-ML.git
 cd SmartTraffic-ML
