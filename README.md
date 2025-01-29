@@ -9,15 +9,6 @@ Traffic congestion significantly contributes to **carbon emissions** and urban p
 ✔️ **Suggest eco-friendly routes** : Provide drivers with route options that minimize emissions and fuel consumption. 
 ✔️ **Integrate** carbon footprint analytics for city planners : Develop tools for city planners to analyze the environmental impact of traffic management strategies. 
 
-Project Structure
-├── data
-│   ├── raw            # Raw traffic data (historical and real-time)
-│   ├── processed      # Processed and cleaned data for modeling
-│   └── models         # Trained machine learning models
-├── notebooks          # Jupyter notebooks for data exploration, model development, and analysis
-├── src                # Source code for data processing, model training, and visualization
-├── reports            # Project reports and documentation
-└── README.md          # This file
 
 
 ## **🛠️ Tech Stack**
