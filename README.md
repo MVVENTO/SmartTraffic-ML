@@ -18,7 +18,7 @@ Traffic congestion significantly contributes to **carbon emissions** and urban p
 | Programming        | Python, TensorFlow, PyTorch |
 | Data Processing    | Pandas, NumPy, Scikit-Learn |
 | Traffic Simulation | Tom Tom                     |
-| API Development    | FastAPI / Flask             |
+| API Development    | FastAPI           |
 | Visualization      | Streamlit / React + D3.js   |
 | Deployment         | Google Cloud / AWS          |
 
