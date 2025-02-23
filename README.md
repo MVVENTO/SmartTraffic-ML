@@ -59,7 +59,7 @@ By predicting congestion patterns, suggesting eco-friendly routes, and providing
 
 | Phase      | Duration           | Task                             |
 | ---------- | ------------------ | -------------------------------- |
-| Week 1-3   | Data Collection & Preprocessing | |
+| Week 1-3   | Data Collection & Preprocessing | | In progress 2/21/25 - 3/15/25
 | Week 4-7   | ML Model Training  |                                  |
 | Week 8-10  | Traffic Simulation & Testing |                                |
 | Week 11-12 | API & Dashboard Development |                               |
