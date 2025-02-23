@@ -65,9 +65,20 @@ By predicting congestion patterns, suggesting eco-friendly routes, and providing
 | Week 11-12 | API & Dashboard Development |                               |
 | Week 13-14 | Optimization & Deployment |                                |
 
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## 📂 How to Run the Project
+
+
+
+
 
 1⃣ **Clone the repository**  
 ```bash
 git clone https://github.com/yourusername/smart-traffic.git
 cd smart-traffic
+
+
+
